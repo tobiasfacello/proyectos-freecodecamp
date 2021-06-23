@@ -4,24 +4,23 @@
 <head>
     <title>FreeCodeCamp - Tribute Page: Manu Ginobili</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <main id="main">
+    <main id="main" class="main-container">
 
         <h1 id="title">Manu Ginobili</h1>
 
-        <div id="subtitle"> 
+        <div class="subtitle-container" id="subtitle"> 
             <img class="nba-logo" src="images/nba-logo.png">
                 <p id="subtitle-p">The biggest robbery in NBA history</p>
             <img class="nba-logo" src="images/nba-logo.png">
         </div>
-
-        <hr>
 
         <div id="img-div">
             <figure>
@@ -29,8 +28,6 @@
                 <figcaption id="img-caption">Manu Ginobili playing one of his last games in San Antonio Spurs.</figcaption>
             </figure>
         </div>
-
-        <br>
 
         <section id="tribute-info">
             <h3>Here's a time line of Manu Ginobili's career:</h3>
@@ -72,8 +69,6 @@
                 </li>
             </ul>
 
-            <br>
-
             <blockquote>
                 <p>
                     <em>"I have dreams inside of me, and I have a chance to make them true."</em>
@@ -83,14 +78,15 @@
                 </cite>
             </blockquote>
 
-            <hr>
-
-            <p>
-                For more information about this amazing argentinian basketball player, click <a id="tribute-link" href="https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili" target="_blank">this link.</a>
-            </p>
         </section>
-
+        
     </main>
+
+    <footer>
+        <p>
+            For more information about this amazing argentinian basketball player, click <a id="tribute-link" href="https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili" target="_blank">this link.</a>
+        </p>
+    </footer>
     
 </body>
 

@@ -1,0 +1,133 @@
+:root {
+    --font-color: #f5f6fa;
+    --bgd-color: #273c75;
+    --one-color: #111;
+    --orange-color: #ff9c40;
+}
+
+* {
+    font-family: Oswald, sans-serif;
+}
+
+body {
+    background-color: var(--bgd-color);
+    word-spacing: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    padding: 10px;
+    margin: 0 auto;
+    color: var(--font-color);
+    background-color: var(--one-color);
+    font-size: 50px;
+    text-align: center;
+    align-self: center;
+    border: 3px solid var(--orange-color);
+    border-radius: 10px;
+}
+
+#subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+    margin: 25px 300px;
+    background-color: var(--one-color);
+    border: 3px solid var(--orange-color);
+    border-radius: 10px;
+}
+
+#subtitle-p {
+    color: var(--font-color);
+    font-size: 35px;
+    text-align: center;
+}
+
+.nba-logo {
+    max-width: 120px;
+    min-width: none;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+figure {
+    border: 3px solid var(--orange-color);
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+figure #image {
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+figure figcaption {
+    color: var(--font-color);
+    background-color: var(--one-color);
+    text-align: center;
+}
+
+#tribute-info {
+    color: var(--font-color);
+    padding: 30px;
+}
+
+#tribute-info h3 {
+    padding-bottom: 45px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: double underline;
+    text-decoration-color: var(--orange-color);
+}
+
+#tribute-info ul {
+    margin: 0 100px;
+}
+
+#tribute-info ul li {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 50px;
+}
+
+#tribute-info ul li b {
+    color: var(--orange-color);
+}
+
+blockquote {
+    padding: 55px 0;
+}
+
+blockquote,
+blockquote p {
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px 10px;
+    background-color: #111;
+}
+
+footer p {
+    color: var(--font-color);
+    font-size:  20px;
+    text-align: center;
+}
+
+#tribute-link {
+    color: var(--orange-color);
+}
+/* Responsive Web Design */
