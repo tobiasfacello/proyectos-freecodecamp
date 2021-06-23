@@ -5,4 +5,4 @@ FreeCodeCamp - Responsive Web Design / Project #1: Build a Tribute Page.
 
 
 
-Solution link: https://codepen.io/tobiasfacello/pen/dypVqdj
+CodePen link: https://codepen.io/tobiasfacello/pen/dypVqdj
