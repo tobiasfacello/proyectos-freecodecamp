@@ -1,0 +1,243 @@
+:root {
+    --zero-color: #000;
+    --f-color: #fff;
+    --av-color: #0f5651;
+    --bordo-color: #c20534;
+    --title-bkgd-color: rgba(194, 5, 52, 0.65);
+    --container-color: rgba(157, 196, 214, 0.65);
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: url('../images/vaccine-covid2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    padding: 20px 0;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 55px;
+    color: var(--f-color);
+    background-color: var(--av-color);
+    text-align: center;
+    text-shadow: var(--zero-color) 0px 4px 2px;
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--f-color);
+    background-color: var(--av-color);
+    text-shadow: var(--zero-color) 0px 2px 2px;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--f-color);
+    background-color: var(--av-color);
+    text-shadow: var(--zero-color) 0px 2px 2px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--zero-color);
+}
+
+li {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--zero-color);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--zero-color);
+}
+
+
+
+footer {
+    padding: 5px 10px;
+    width: 98.95vw;
+    text-align: center;
+    color: var(--f-color);
+    background-color: var(--zero-color);
+}
+
+footer .copyright {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container {
+    margin: 10px 0;
+    background-color: var(--container-color);
+    width: 80vw;
+}
+
+.form-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.container-datos input {
+    width: 200px;
+    font-size: 20px;
+}
+
+
+
+.container-contacto #cod-tel {
+    width: 50px;
+    font-size: 20px;
+}
+
+.container-contacto #num-tel {
+    width: 150px;
+    font-size: 20px;
+}
+
+.container-contacto #email {
+    width: 340px;
+    font-size: 20px;
+}
+
+
+
+.salud__grupo {
+    font-size: 20px;
+    width: 375px;
+}
+
+
+
+.container-patologias {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-patologias label {
+    width: 700px;
+}
+
+
+
+.salud__sintomas {
+    display: flex;
+    flex-direction: column;
+}
+
+.salud__sintomas label {
+    width: 300px;
+}
+
+
+
+.sintomas-graves h3,
+.sintomas-graves em {
+    color: #6B1500;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: start;
+    text-shadow: #911B01 0px 2px 2px;
+}
+
+.sintomas-graves ul li {
+    margin-left: 30px;
+}
+
+.sintomas-habituales h3,
+.sintomas-habituales em {
+    color: #C42A02;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: start;
+    text-shadow: #F85500 0px 2px 2px;
+}
+
+.sintomas-habituales ul li {
+    margin-left: 30px;
+}
+
+.sintomas-menos-comunes h3,
+.sintomas-menos-comunes em {
+    color: #F85500;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: start;
+    text-shadow: #F88502 0px 2px 2px;
+}
+
+.sintomas-menos-comunes ul li {
+    margin-left: 30px;
+}
+
+
+
+.container-sugerencias-sintomas {
+    display: none;
+}
+
+
+
+.container-comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-comentario textarea {
+    font-size: 20px;
+    width: 75vw;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+
+.container-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-submit button {
+    font-size: 20px;
+    width: 200px;
+}

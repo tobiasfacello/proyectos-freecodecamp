@@ -1,0 +1,37 @@
+<head>
+    <!-- *Datos* -->
+        <title>FreeCodeCamp - Survey Form: COVID-19 Vaccination Registration</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Survey form page">
+        <meta name="author" content="Tobias Facello">
+        <meta name="keywords" content="Survey form, Desarrollo Web, Front-End Developer, Projects, Translation">
+    <!-- *Estilos* -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/d70a1f20c5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">COVID-19 Vaccination Registration Form</h1>
+            <div id="description">
+                <p>Complete the form and register your request to recieve the COVID-19 vaccine.</p>
+                <p>Argentina uses this system to register the will to be vaccinated.</p>
+            </div>
+        </header>
+        <div id="main-container">        
+            <main>
+                <form id="survey-form">
+                    <label for="name">Name * </label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <label for="last-name"> Last name * </label>
+                    <input type="text" id="last-name" placeholder="Enter your last name" required>
+                    <label for="email">Email * </label>
+                    <input type='text' id="email" placeholder="Enter you email" required pattern='[^@]+@[^@]+.[a-zA-Z]{2,6}'>
+                    <label for="number">DNI * </label>
+                    <input type='number' id="number" placeholder="Enter you DNI" required>
+    
+                </form>
+            </main>
+        </div>
