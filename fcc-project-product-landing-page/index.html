@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- *Datos* -->
+	<title>FreeCodeCamp - Product Landing Page: Original Sneackers</title>
+	<meta charset='UTF-8'>
+	<meta name='description' content='Página de aterrizaje de producto'>
+	<meta name='author' content='Tobias Facello'>
+	<meta name='keywords' content='Product Landing Page, Desarrollo Web, Front-End Developer, Proyectos'>
+	<!-- *Estilos* -->
+	<link rel='preconnect' href='https://fonts.gstatic.com'>
+	<link href='' rel='stylesheet'>
+	<link rel='stylesheet' href='css/normalize.css'>
+	<link rel='stylesheet' href='css/style.css'>
+	<script src='https://kit.fontawesome.com/d70a1f20c5.js' crossorigin='anonymous'></script>
+</head>
+
+<body id="top">
+	<div id='container'>
+		<header id="header">
+			<div class="logo-container">
+				<img class="logo" id="header-img" src="images/shoes.svg">
+				<h1 class="product-title"><a href="#top">Original Sneackers</a></h1>
+			</div>
+
+			<div class="nav-container">
+				<nav id="nav-bar">
+					<a class="nav-link" href="#features">
+						<div>
+							<p>Características</p>
+						</div>
+					</a>
+					<a class="nav-link" href="#presentacion">
+						<div>
+							<p>Presentación</p>
+						</div>
+					</a>
+					<a class="nav-link" href="#products">
+						<div>
+							<p>Productos</p>
+						</div>
+					</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="main-divs form-container">
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<h3 class="form-title">Recibí novedades sobre nuestros productos</h3>
+					<div class="form__input-container">
+						<input class="form-input" id="email" name="email" type="email" placeholder="Ingrese su email"
+							size="40" required>
+					</div>
+					<br>
+					<div class="form__input-container">
+						<label class="checkbox-container" for="novedades">Acepto recibir novedades sobre nuevos
+							productos y
+							promociones.
+							<input class="form-input" id="novedades" type="checkbox" value="aceptar-novedades" required>
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<br>
+					<div class="form__input-container">
+						<input class="form__submit" id="submit" type="submit" value="Empezar">
+					</div>
+				</form>
+			</div>
+
+			<section id="features" class="main-divs features-container">
+				<h2 class="features__h2">En <b>Original Sneackers</b> nos caracterizamos por...</h2>
+				<div class="feature">
+					<div class="feature-icon-container">
+						<img class="feature-icons" src="images/delivery.svg">
+					</div>
+					<div class="feature-content-container">
+						<h3 class="feature-title">Envíos a todo el país</h3>
+						<p class="feature-desc">Los envíos se realizan en toda la República Argentina. Se
+							realizan en la dirección que nos indiques al momento de realizar tu compra. También podés
+							disponer de la opción del retiro en sucursal.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<div class="feature-icon-container">
+						<img class="feature-icons" src="images/payment.svg">
+					</div>
+					<div class="feature-content-container">
+						<h3 class="feature-title">Múltiples métodos de pago</h3>
+						<p class="feature-desc">En Original Sneackers podes usar métodos de pago tales como: <b>Tarjetas
+								de Crédito</b>, <b>Tarjetas de Débito</b> y <b>Mercado Pago</b>.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<div class="feature-icon-container">
+						<img class="feature-icons" src="images/return-box.svg">
+					</div>
+					<div class="feature-content-container">
+						<h3 class="feature-title">Primera devolución gratuita</h3>
+						<p class="feature-desc">En el caso de que tengas que devolver un producto, mandanos un email con
+							los datos de tu orden a <b>ecommerce@sneackers.com.ar</b>.
+							También podés acercarte a nuestra sucursal con el producto y la factura
+							correspondiente.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="main-divs video-container">
+				<h3 id="presentacion" class="video-title">Presentación de Sneackers</h3>
+				<iframe id="video" width="560" height="315"
+					src="https://www.youtube.com/embed/lky2P_aw6nc?controls=0&amp;start=54" title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</section>
+
+			<section id="products" class="main-divs products-container">
+				<div class="product-card">
+					<span class="card-tag">#1 en Más Vendidos</span>
+					<div class="card-header">
+						<img src="images/react-nikes.jpeg">
+					</div>
+					<div class="card-body">
+						<h4 class="product-name">Nike React Element</h4>
+						<p class="product-status">Item No. NI_BQ2728-003</p>
+						<h3 class="product-price">$19.999</h3>
+					</div>
+					<div class="card-footer">
+						<button class="btn btn-secundario">
+							Guardar
+						</button>
+						<button class="btn btn-primario">
+							Comprar
+						</button>
+					</div>
+				</div>
+				<div class="product-card">
+					<span class="card-tag">#2 en Más Vendidos</span>
+					<div class="card-header">
+						<img src="images/jordan.jpeg">
+					</div>
+					<div class="card-body">
+						<h4 class="product-name">Air Jordan 11 Retro</h4>
+						<p class="product-status">Item No. NI_AR0715-011</p>
+						<h3 class="product-price">$36.999</h3>
+					</div>
+					<div class="card-footer">
+						<button class="btn btn-secundario">
+							Guardar
+						</button>
+						<button class="btn btn-primario">
+							Comprar
+						</button>
+					</div>
+				</div>
+				<div class="product-card">
+					<span class="card-tag">#3 en Más Vendidos</span>
+					<div class="card-header">
+						<img src="images/black-nikes.jpeg">
+					</div>
+					<div class="card-body">
+						<h4 class="product-name">Nike Air Max 270</h4>
+						<p class="product-status">Item No. NI_AT6174-001</p>
+						<h3 class="product-price">$24.999</h3>
+					</div>
+					<div class="card-footer">
+						<button class="btn btn-secundario">
+							Guardar
+						</button>
+						<button class="btn btn-primario">
+							Comprar
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<h5 class="copyright">Made by Tobías Facello © 2021</h5>
+		</footer>
+	</div>
+</body>
+
+</html>
