@@ -1,0 +1,291 @@
+:root {
+    --one-color: #111;
+    --f-color: #fff;
+    --lightgray-color: #E9ECEF;
+    --black-color: #212529;
+    --bkgd-color: #ffea3d;
+    --navlink-color: #ffc300;
+    --navlink-hover-color: #ffa200;
+    --a-color: #0432e8;
+    --a-hover-color: #395ff9;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--lightgray-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+    height: 96vh;
+    position: fixed;
+    color: var(--black-color);
+    background-color: var(--bkgd-color);
+    border-right: 1px solid var(--one-color);
+    border-bottom: 1px solid var(--one-color);
+}
+
+nav header {
+    padding: 10px 0;
+    font-size: 25px;
+    color: var(--lightgray-color);
+    background-color: var(--navlink-hover-color);
+    border-top: 1px solid var(--one-color);
+    border-bottom: 1px solid var(--one-color);
+}
+
+ nav ul {
+    justify-self: center;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: var(--navlink-hover-color);
+    color: var(--lightgray-color);
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    color: var(--black-color);
+    background-color: var(--navlink-color);
+    border-radius: 5px;
+}
+
+
+
+header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid var(--one-color);
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 68vw;
+    margin-left: 30.5vw;
+    color: var(--one-color);
+}
+
+main section {
+    margin: 5px 0;
+    border: 1px solid var(--one-color);
+    border-radius: 5px;
+    background-color: var(--bkgd-color);
+}
+
+main section:first-child {
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 0;
+}
+
+main section:first-child header {
+    border-radius: 0px;
+}
+
+
+main section header {
+    color: var(--lightgray-color);
+    background-color: var(--navlink-hover-color);
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+h3 {
+    padding: 10px;
+    margin: 0 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: var(--lightgray-color);
+    background-color: var(--navlink-hover-color);
+    border: 1px solid var(--bkgd-color);
+    border-radius: 5px;
+}
+
+
+
+p, 
+ul,
+ol {
+    line-height: 30px;
+    word-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 20px 50px;
+}
+
+main ul,
+main ol {
+    padding: 0 20px;
+}
+
+main a:link {
+    color: var(--a-color);
+}
+
+main a:hover {
+    color: var(--a-hover-color);
+}
+
+main a:visited:hover {
+    color: var(--a-hover-color);
+}
+
+main a:visited {
+    color: var(--one-color);
+    text-decoration: none;
+}
+
+.code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 50px;
+    width: 40vw;
+    color: var(--lightgray-color);
+    background-color: var(--black-color);
+    border-left: 5px solid var(--navlink-hover-color);
+    border-radius: 3px;
+}
+
+.code-container code {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+
+footer {
+    padding: 5px 10px;
+    text-align: center;
+    color: var(--f-color);
+    background-color: var(--one-color);
+    z-index: 10;
+}
+
+footer .copyright {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* Responsive Design */
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+
+    nav header {
+        font-size: 20px;
+    }
+
+    nav ul {
+        margin: auto 0px;
+    }
+
+    nav ul li {
+        margin: 10px;
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    header {
+        font-size: 30px;
+    }
+
+    main {
+        width: 67vw;
+        margin-left: 31vw;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p,
+    ul,
+    ol {
+        font-size: 15px;
+    }
+
+    .code-container {
+        margin: 0 auto;
+        width: 45vw;
+    }
+
+    .code-container code {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    nav {
+        height: 93.7vh;
+    }
+
+    nav header {
+        font-size: 20px;
+    }
+
+    nav ul {
+        margin: auto 0px;
+    }
+
+    nav ul li {
+        margin: 10px;
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+
+    header {
+        font-size: 30px;
+        padding: 27.5px;
+    }
+
+    main {
+        width: 67vw;
+        margin-left: 31vw;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p,
+    ul,
+    ol {
+        font-size: 15px;
+    }
+
+    .code-container {
+        margin: 0 auto;
+        width: 45vw;
+    }
+
+    .code-container code {
+        font-size: 10px;
+    }
+
+}
