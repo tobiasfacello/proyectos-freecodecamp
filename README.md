@@ -12,4 +12,6 @@
 - Proyecto #4: Build a Technical Documentation Page | [Ver Proyecto](https://tobiasfacello-fcc-project-4.netlify.app/)
 - Proyecto #5: Build a Personal Portfolio | [Ver Proyecto](https://tobiasfacello-portfolio.netlify.app/)
 
-<img src="images/responsive-web-design-certification.png">
+  <p align="center">
+    <a href="https://www.freecodecamp.org/espanol/certification/tobiasfacello/responsive-web-design" target="_blank"><img src="images/responsive-web-design-certification.png" width="70%" height="70%"></a>
+    </p>
