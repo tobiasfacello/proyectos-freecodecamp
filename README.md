@@ -27,7 +27,7 @@
 
 - Proyecto #5: Build a Personal Portfolio | [Ver Proyecto](https://tobiasfacello-portfolio.netlify.app/)
   
-[![Portfolio Personal](https://github-readme-stats.vercel.app/api/pin/?username=tobiasfacello&repo=portfolio-personal)](https://github.com/tobiasfacello/portfolio-personal)
+[![Portfolio Personal](https://github-readme-stats.vercel.app/api/pin/?username=tobiasfacello&repo=fcc-project-5)](https://github.com/tobiasfacello/portfolio-personal)
 
 <hr>
 <p align="center">
